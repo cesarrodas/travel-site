@@ -26,6 +26,7 @@ class Modal {
 	}
 
 	openModal() {
+		console.log("I was clicked");
 		this.modal.addClass("modal--is-visible");
 		return false;
 	}
